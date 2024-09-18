@@ -1,0 +1,100 @@
+@font-face {
+    font-family:"Nm Light";
+    src: url("./src/fonts/FontsSite/PPNeueMachina-Light.otf");
+}
+@font-face {
+    font-family:"Nm reg";
+    src: url("./src/fonts/FontsSite/PPNeueMachina-Regular.otf");
+}
+@font-face {
+    font-family:"Nm bold";
+    src: url("./src/fonts/FontsSite/PPNeueMachina-Ultrabold.otf");
+}
+@font-face {
+    font-family:"Gil light";
+    src: url("./src/fonts/FontsSite/Gilroy Font/Gilroy-Light.otf");
+}
+.general_container_chooose{
+    width: 100%;
+    height: 100vh;
+}
+.descr_choose{
+    font-family:"Gil light";
+    color: #2F353FB2;
+    width: 40vw;
+    font-size: 20px;
+}
+.choose_subtitle{
+    width: 44vw;
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+.head_choo{
+    width: 35%;
+    display: flex;
+    justify-content: right;
+}
+.pain_container_general{
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(145, 112, 177); */
+    display: flex;
+}
+.gen_but_pain{
+    width: 35%;
+    height: 60vh;
+    /* background-color: cadetblue; */
+}
+.knopki{
+    width: 80%;
+    height: 60vh;
+    /* background-color: crimson; */
+}
+.knopki>ul>li{
+    list-style: none;
+    color: white;
+    height:10vh ;
+}
+.knopki>ul>li>button{
+    background-color:white;
+    border: none;
+    height:10vh ;
+    font-family:"Gil light";
+    font-size: 20px;
+    color: #2F353F4D;
+    border-left: 2px solid #2F353F80;
+}
+.knopki>ul{
+   margin-left: 20vh;
+   margin-top: 8vh;
+}
+.pain_but_move{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+}
+.info_gen_cont{
+    width: 60%;
+    height: 60vh;
+    /* background-color: burlywood; */
+}
+.info_card{
+    width: 100%;
+    height: 40vh;
+    border: 2px solid #2F353F80;
+    margin-top: 8vh;
+    border-radius: 70px;
+}
+.set_cont_tex{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_set{
+    font-size: 30px;
+    font-family:"Nm Light";
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family:"Nm Light";
+    src: url("./src/fonts/FontsSite/PPNeueMachina-Light.otf");
+}
+@font-face {
+    font-family:"Nm reg";
+    src: url("./src/fonts/FontsSite/PPNeueMachina-Regular.otf");
+}
+@font-face {
+    font-family:"Nm bold";
+    src: url("./src/fonts/FontsSite/PPNeueMachina-Ultrabold.otf");
+}
+@font-face {
+    font-family:"Gil light";
+    src: url("./src/fonts/FontsSite/Gilroy Font/Gilroy-Light.otf");
+}
+.general_container_goals{
+    width: 100%;
+    height: 180vh;
+}
+h1{
+    font-family:"Nm Light";
+    font-size: 60px;
+    font-weight: 200;
+}
+.header_goals_container{
+    width: 45%;
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+  
+}
+.this_wind{
+    width: 25vw;
+    height: 44vh;
+    border: 1px solid #95989D ;
+    border-radius: 70px;
+}
+.container_win{
+    width: 100%;
+    height:50vh;
+    align-items: end;
+    justify-content: center;
+    display: flex;  
+}
+.title{
+    color: blue;
+    font-family:"Nm reg";
+    font-size: 30px;
+}
+.numb_cont{
+    width: 30%;
+    height:7vh;   
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.title_disr{
+    width: 100%;
+    height: 35vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.subtitle{
+    font-family:"Nm reg";
+    font-size: 20px;
+    height: 6vh;
+}
+.desription{
+    font-family:"Gil light";
+    color: #95989D;
+    width: 195px;
+    font-size: 15px;
+}
+.Second_long{
+    width: 37vw;
+    height: 40vh;
+    border: 1px solid #95989D ;
+    border-radius: 70px;
+}
+.second_container{
+    width: 100%;
+    height: 40vh;
+}
+.long_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.numb_cont_long{
+    width: 15%;
+    height:7vh;
+    display: flex;
+    align-items: end;  
+    justify-content: right; 
+}
+.desription_second{
+    font-family:"Gil light";
+    color: #95989D;
+    width:24vw;
+    font-size: 15px;
+}
+.long_cont_numb{
+    width: 73%;
+    height: 28vh;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    /* background-color: red; */
+}
+.third_blobk_general{
+    width: 100%;
+    height: 41vh;
+}
+.container_three{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Three_long{
+    width: 48vw;
+    height: 44vh;
+    border: 1px solid #95989D ;
+    border-radius: 70px;
+}
+.numb_cont_three{
+    width: 15%;
+    height:7vh;
+    display: flex;
+    align-items: end;  
+    justify-content: right;  
+}
+.three_cont_numb{
+    width: 60%;
+    height: 28vh;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
